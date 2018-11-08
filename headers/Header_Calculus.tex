@@ -34,21 +34,21 @@
 {}% end header of longpage
 {% begin header/footer of not longpage
 \fancyhfoffset[LE,RO]{\marginparwidth+\marginparsep}
-%\fancyfoot[LE,RO]{\textbf{\thepage}} %Displays the page number in bold in the header,
+\fancyfoot[LE,RO]{\textbf{\thepage}} %Displays the page number in bold in the header,
 
 \fancyfoot[LE]{\begin{minipage}{\textwidth}%
-\noindent\hskip\marginparwidth\hskip\marginparsep\hskip-4pt\rule{\textwidth}{.4pt}
+%\noindent\hskip\marginparwidth\hskip\marginparsep\hskip-4pt\rule{\textwidth}{.4pt}
 \vskip.2\baselineskip
 \noindent\hskip\marginparwidth\hskip\marginparsep\hskip-4pt%
-Notes:
-\vskip 1.5in\textbf{\thepage}
+%Notes:
+%\vskip 1.5in\textbf{\thepage}
 \end{minipage}} 
 
 \fancyfoot[RO]{\begin{minipage}{\textwidth+\marginparwidth+\marginparsep}%
-\rule{\textwidth-\marginparwidth-\marginparsep}{.4pt}
+%\rule{\textwidth-\marginparwidth-\marginparsep}{.4pt}
 \vskip.2\baselineskip
-Notes:
-\vskip 1.5in
+%Notes:
+%\vskip 1.5in
 \hfill\textbf{\thepage}
 \end{minipage}}       
 
@@ -82,18 +82,18 @@ Notes:
 \fancyhead[LE]{\nouppercase{\leftmark}}%
 \fancyhead[RO]{\rightmark}%
 \fancyfoot[LE]{\begin{minipage}{\textwidth}%
-\noindent\hskip\marginparwidth\hskip\marginparsep\hskip0pt\rule{\textwidth}{.4pt}
+%\noindent\hskip\marginparwidth\hskip\marginparsep\hskip0pt\rule{\textwidth}{.4pt}
 \vskip.2\baselineskip
 \noindent\hskip\marginparwidth\hskip\marginparsep\hskip0pt%
-Notes:
-\vskip 1.5in\textbf{\thepage}
+%Notes:
+%\vskip 1.5in\textbf{\thepage}
 \end{minipage}} 
 
 \fancyfoot[RO]{\begin{minipage}{\textwidth+\marginparwidth+\marginparsep}%
-\rule{\textwidth-\marginparwidth-\marginparsep}{.4pt}
+%\rule{\textwidth-\marginparwidth-\marginparsep}{.4pt}
 \vskip.2\baselineskip
-Notes:
-\vskip 1.5in
+%Notes:
+%\vskip 1.5in
 \hfill\textbf{\thepage}
 \end{minipage}}
 \fancyhfoffset[LE,RO]{\marginparsep+\marginparwidth}
@@ -103,18 +103,18 @@ Notes:
 \fancyhead[LE]{\nouppercase{\leftmark}}%
 \fancyhead[RO]{\rightmark}%
 \fancyfoot[LE]{\begin{minipage}{\textwidth}%
-\noindent\hskip\marginparwidth\hskip\marginparsep\hskip0pt\rule{\textwidth}{.4pt}
+%\noindent\hskip\marginparwidth\hskip\marginparsep\hskip0pt\rule{\textwidth}{.4pt}
 \vskip.2\baselineskip
 \noindent\hskip\marginparwidth\hskip\marginparsep\hskip0pt%
-Notes:
-\vskip 1.5in\textbf{#1.\thepage}
+%Notes:
+%\vskip 1.5in\textbf{#1.\thepage}
 \end{minipage}} 
 
 \fancyfoot[RO]{\begin{minipage}{\textwidth+\marginparwidth+\marginparsep}%
-\rule{\textwidth-\marginparwidth-\marginparsep}{.4pt}
+%\rule{\textwidth-\marginparwidth-\marginparsep}{.4pt}
 \vskip.2\baselineskip
-Notes:
-\vskip 1.5in
+%Notes:
+%\vskip 1.5in
 \hfill\textbf{#1.\thepage}
 \end{minipage}}
 \fancyhfoffset[LE,RO]{\marginparsep+\marginparwidth}
